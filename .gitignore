@@ -1,4 +1,4 @@
-node_modules/
+node_modules
 public/
 dist/
 .cache/
@@ -6,3 +6,4 @@ dist/
 .idea/
 package-lock.json
 .DS_Store
+.env

@@ -1,7 +1,8 @@
-import { initializeApp } from 'firebase/app';
+import firebase from 'firebase/app';
 import 'firebase/auth';
+import 'firebase/database';
 
-const app = initializeApp({
+const app = firebase.initializeApp({
     apiKey: process.env.FIREBASE_KEY,
     authDomain: process.env.FIREBASE_DOMAIN,
     databaseURL: process.env.FIREBASE_DATABASE,

@@ -7,11 +7,13 @@ import Signup from './pages/Signup';
 import PrivateRoute from './PrivateRoute';
 
 export const App = () => (
-  <AuthProvider>
-    <BrowserRouter>
-      <PrivateRoute exact path="/" component={Home} />
-      <Route exact path="/login" component={Login} />
-      <Route exact path="/signup" component={Signup} />
-    </BrowserRouter>
-  </AuthProvider>
+  <div className="container">
+    <AuthProvider>
+      <BrowserRouter>
+        <PrivateRoute exact path="/" component={Home} />
+        <Route exact path="/login" component={Login} />
+        <Route exact path="/signup" component={Signup} />
+      </BrowserRouter>
+    </AuthProvider>
+  </div>
 )

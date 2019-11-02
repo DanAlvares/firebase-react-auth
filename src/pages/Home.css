@@ -1,0 +1,18 @@
+#Home header button {
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+#Teams ul {
+    padding: 15px;
+}
+#Teams li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+#Teams li input {
+    border: none;
+    border-bottom: solid 1px rgba(0, 0, 0, .2);
+}
